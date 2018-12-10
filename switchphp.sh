@@ -1,15 +1,12 @@
 #!/bin/bash
-
 current=`php -r "echo phpversion();" | cut -f1,2 -d'.'`
 choice=$1
-
 
 if [ $# -lt 1 ]
 then
   echo "Usage: $0 PHPversion"
   exit 1
 fi
-
 
 echo "Disabling current version: $current"
 sudo a2dismod "php$current" >> /dev/null
