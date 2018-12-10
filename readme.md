@@ -1,12 +1,12 @@
 # Introduction
 
-Disable the current version of PHP and enable your desired PHP version.
+Disable the current version of PHP and enable your desired PHP version.  
 I'm using this for my own needs. It won't necessary fit yours.
 
 # Installation
 
-    $ cp switchphp.sh /etc/bin/switchphp
-    $ chmod +x /etc/bin/switchphp
+    $ cp switchphp.sh /usr/local/bin/switchphp
+    $ chmod +x /usr/local/bin/switchphp
 
 # Usage
 Switch to php 7.3 (pre-installed)
